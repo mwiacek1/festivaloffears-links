@@ -1,0 +1,11 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "GITMOOSE, LLC.com.gitmoose.festivaloffears",
+        "paths": ["/attractions/*"]
+      }
+    ]
+  }
+}

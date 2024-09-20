@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.gitmoose.festivaloffears",
+      "sha256_cert_fingerprints": [
+        "4FC2DF8E7EC6B12F415E7A1C087EDCC7EA5E3BD3DBDCE9D102A29EA2BA2AB7FA"
+      ]
+    }
+  }
+]
