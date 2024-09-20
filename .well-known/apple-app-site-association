@@ -3,8 +3,18 @@
     "apps": [],
     "details": [
       {
-        "appID": "GITMOOSE, LLC.com.gitmoose.festivaloffears",
-        "paths": ["/attractions/*"]
+        "appID": "X58M5DHXJ7.com.gitmoose.festivaloffears",
+        "paths": [
+          "/festivaloffears-links/well-known/attraction_beasts_of_the_bayou",
+          "/festivaloffears-links/well-known/attraction_blackwood_cemetery",
+          "/festivaloffears-links/well-known/attraction_blackwood_conspiracy",
+          "/festivaloffears-links/well-known/attraction_chaos_collection",
+          "/festivaloffears-links/well-known/attraction_crypt_buried_alive",
+          "/festivaloffears-links/well-known/attraction_jacks_vs_creaks",
+          "/festivaloffears-links/well-known/attraction_labyrinth_of_lost_fears",
+          "/festivaloffears-links/well-known/attraction_protocol_z",
+          "/festivaloffears-links/well-known/attraction_shriek_show"
+        ]
       }
     ]
   }
