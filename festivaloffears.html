@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Festival of Fears App Download</title>
+  <script>
+    // Redirect based on device OS
+    window.onload = function() {
+      var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+
+      // Check if iOS
+      if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+        // Redirect to Apple App Store
+        window.location.href = "https://apps.apple.com/us/app/festival-of-fears/id6692610259";
+      } 
+      // Check if Android
+      else if (/android/i.test(userAgent)) {
+        // Redirect to Google Play Store
+        window.location.href = "https://play.google.com/store/apps/details?id=com.gitmoose.festivaloffears";
+      } 
+      // If neither, show a message
+      else {
+        document.getElementById('message').innerHTML = "Please visit this page on a mobile device to download the app.";
+      }
+    };
+  </script>
+</head>
+<body>
+  <h1>Festival of Fears App Download</h1>
+  <p id="message">Redirecting you to the correct app store...</p>
+</body>
+</html>
