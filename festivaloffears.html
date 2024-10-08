@@ -5,6 +5,41 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Festival of Fears App Download</title>
+
+  <!-- Link to Google Fonts or custom fonts from the original website -->
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap" rel="stylesheet">
+
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      font-family: 'Cinzel', serif;
+      color: #ffffff; /* Set text color to white */
+      background: url('FoF_background.jpeg') no-repeat center center fixed;
+      background-size: cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 3em;
+      text-transform: uppercase;
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 1.5em;
+    }
+
+    #message {
+      font-weight: 400;
+    }
+  </style>
+
   <script>
     // Redirect based on device OS
     window.onload = function() {
@@ -14,12 +49,12 @@
       if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
         // Redirect to Apple App Store
         window.location.href = "https://apps.apple.com/us/app/festival-of-fears/id6692610259";
-      } 
+      }
       // Check if Android
       else if (/android/i.test(userAgent)) {
         // Redirect to Google Play Store
         window.location.href = "https://play.google.com/store/apps/details?id=com.gitmoose.festivaloffears";
-      } 
+      }
       // If neither, show a message
       else {
         document.getElementById('message').innerHTML = "Please visit this page on a mobile device to download the app.";
@@ -28,7 +63,9 @@
   </script>
 </head>
 <body>
-  <h1>Festival of Fears App Download</h1>
-  <p id="message">Redirecting you to the correct app store...</p>
+  <div>
+    <h1>Festival of Fears App Download</h1>
+    <p id="message">Redirecting you to the correct app store...</p>
+  </div>
 </body>
 </html>
